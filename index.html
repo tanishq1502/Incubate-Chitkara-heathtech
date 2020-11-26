@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Covid-19</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Podkova&family=Russo+One&display=swap" rel="stylesheet">
+</head>
+<body style="overflow-x: hidden;">
+    <div class="navbar nav">
+        <a href="https://www.who.int/health-topics/coronavirus#tab=tab_3">Symptoms</a>
+        <a href="https://www.who.int/health-topics/coronavirus#tab=tab_2">Preventions</a>
+    </div>
+
+    <div class="row">
+        <div class="main-1 col-md-6">
+            <h3 id="alert">Covid-19 Alert!!</h3>
+            <div class="inputboxes">
+                <select id="state_wise">
+                    <option value="">State</option>
+                </select>
+                <select id="dist_wise">
+                    <option value="">District</option>
+                </select>
+            </div>
+        </div>
+        <div class="col-md-6 main-2">
+            <img src="./Corona.png" class="rounded" alt="">
+        </div>
+    </div>
+    <div class="card-content row">
+        <div class="col-sm-5" id="state_confirmed">State Data</div>
+        <div class="col-sm-5" id="dist_confirmed"> District Data</div>
+    </div>
+</body>
+<script src="./index.js"></script>
+</html>
